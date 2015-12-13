@@ -1,0 +1,129 @@
+body{
+	margin:0 auto;
+	font-family: "微软雅黑";
+	min-width: 980px;
+	background: #fff;
+	border:0px solid red;
+	width:80%;
+	background-size:cover;
+	background-image: url('../images/da/2.jpg');
+	
+}
+h1,h2,h3,h4,h5,h6,ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.clear{
+	clear:both;
+}
+.wanjia{
+	width:200px;
+	height:150px;
+	border:10px solid rgba(69, 75, 76, 0.83);
+	position:absolute;
+}
+.victory{
+	width:60%;
+	height:300px;
+	line-height: 300px;
+	text-align: center ; 
+	position: relative;
+	position:absolute;
+	z-index: 1200 ; 
+	color:rgba(30, 114, 166, 0.91);
+	font-size: 24px;
+	top:130px;
+	left:100px;
+	background-image:url('../images/da/4.jpg');
+	background-size: cover ;
+}
+.again{
+	width:90px;
+	height:48px;
+	position:absolute;
+	background-color: #D6E883;
+  	border: 3px solid #fff;
+	top:200px;
+	left:112px;
+	z-index: 1300;
+	font-size: 18px ; 
+	line-height: 48px ;
+}
+.cxx{
+	display: block ; 
+	height:100%;
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	margin-top: -600px;
+	background-image: url('../images/da/dalishi.jpg');
+	z-index: 1100;
+	transition:all 1s ease ;	
+}
+#runer1{
+	top:150px;
+	left:100px;
+}
+#runer2{
+	top:350px;
+	left:100px;
+}
+.man{
+	width:100%;
+	height:70%;
+	margin:0 auto;
+	text-align: center ; 
+	line-height: 120px;
+	font-size: 18px ;
+	color:#fff;
+	background:rgba(77, 84, 82, 0.75);
+}
+.ll{
+	width:100%;
+	height:46px;
+	text-align: center ;
+	line-height: 46px;
+	background: rgba(194, 182, 182, 0.62) ;
+	color:#040E0F;
+	font-size: 18px;
+}
+#sence{
+	width:550px;
+	height:550px;
+	background-color: #F5661A;
+	border:1px solid #252525;
+	margin:25px auto;
+	position:relative;
+	cursor:pointer;
+	position:relative;
+	/*background-size:cover;*/
+	background-image: url('../images/da/dalishi.jpg');
+	
+	box-shadow: 0 10px 40px rgba(16, 17, 17, 0.9);
+	box-shadow: 0 10px 40px rgba(16, 17, 17, 0.73) inset;
+}
+
+.block{
+	width:59px;
+	height:59px;
+	margin:1px 0px 0px 1px ;
+	float:left;
+	cursor:pointer;
+	position:absolute;
+}
+.shuliang{
+	height:50px;
+	width:150px;
+	background-color: rgba(234, 199, 164 , 0.6) ;
+	position:absolute;
+	right:200px;
+	bottom:-50px;
+	text-align: center ;
+	line-height: 50px;
+}
+#shumu{
+	width:30px;
+	height:20px;
+}
