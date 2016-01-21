@@ -4,7 +4,8 @@ body{
 	min-width: 980px;
 	background: #fff;
 	border:0px solid red;
-	width:80%;
+	height:100%;
+	width:100%;
 	background-size:cover;
 	background-image: url('../images/da/2.jpg');
 	
@@ -128,7 +129,8 @@ h1,h2,h3,h4,h5,h6,ul,li{
 	height:20px;
 }
 .luotuo{
-	height:660px;
+	height:100%;
+	min-height: 660px;
 	width:100%;
 	position:relative;
 	position:absolute;
